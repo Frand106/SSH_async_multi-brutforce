@@ -18,7 +18,7 @@ async def try_connect(ip, login, password, port: int = 22):
 
 
 def write_res(ip, login, password):
-    with open('god.txt', 'a') as file:
+    with open('good.txt', 'a') as file:
         file.write(ip + ',' + login + ',' + password + '\n')
         return ip + ',' + login + ',' + password
 
